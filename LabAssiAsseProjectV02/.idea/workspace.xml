@@ -4,65 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df49f66c-c920-4ef2-986d-907a98f55e55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="df49f66c-c920-4ef2-986d-907a98f55e55" name="Default Changelist" comment="added maven framework">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssvv/lab/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ssvv/lab/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonitorizareTemeLaboratorV02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MonitorizareTemeLaboratorV02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/app/MainApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/curent/Curent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/domain/Nota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/domain/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/domain/Tema.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/repository/AbstractCrudRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/repository/AbstractFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/repository/AbstractXMLRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/repository/CrudRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/repository/FileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/repository/HasID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/repository/NotaFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/repository/NotaXMLRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/repository/StudentFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/repository/StudentXMLRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/repository/TemaFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/repository/TemaXMLRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/service/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/validation/NotaValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/validation/StudentValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/validation/TemaValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/validation/ValidationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/validation/Validator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonitorizareTemeLaboratorV02/view/UI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/curent/Curent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/curent/Curent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Nota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Nota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Tema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Tema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/AbstractCrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AbstractCrudRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/AbstractFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AbstractFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/AbstractXMLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AbstractXMLRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/CrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/CrudRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/FileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/FileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/HasID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/HasID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/NotaFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/NotaFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/NotaXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/NotaXMLRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/StudentFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/StudentFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/StudentXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/StudentXMLRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/TemaFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/TemaFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/TemaXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/TemaXMLRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validation/NotaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/NotaValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validation/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/StudentValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validation/TemaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/TemaValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validation/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/ValidationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/UI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,13 +120,27 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "F:/An3 Sem2/VVSS/Lab/LabAssiAsseProjectV02/VVSS/LabAssiAsseProjectV02",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.externalDependencies"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ssvv.lab.App" />
+      <module name="MonitorizareTemeLaboratorV02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssvv.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="app.MainApplication" />
       <module name="MonitorizareTemeLaboratorV02" />
@@ -191,8 +150,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonitorizareTemeLaboratorV02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssvv.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ssvv.lab" />
+      <option name="MAIN_CLASS_NAME" value="ssvv.lab.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -215,8 +191,17 @@
       <workItem from="1678898047821" duration="1099000" />
       <workItem from="1678899949963" duration="5379000" />
       <workItem from="1679083852716" duration="355000" />
-      <workItem from="1679084225724" duration="1928000" />
+      <workItem from="1679084225724" duration="2402000" />
+      <workItem from="1679086809798" duration="4464000" />
     </task>
+    <task id="LOCAL-00001" summary="added maven framework">
+      <created>1679086403913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679086403913</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -271,9 +256,16 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added maven framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="added maven framework" />
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LabAssiAsseProjectV02$Main.ic" NAME="Main Coverage Results" MODIFIED="1679086310067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
