@@ -3,6 +3,7 @@ package ssvv.lab;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import repository.StudentFileRepository;
 
 public class AppTest extends TestCase {
     public AppTest(String testName){
@@ -16,4 +17,5 @@ public class AppTest extends TestCase {
     public void testApp(){
         assertTrue(true);
     }
+
 }
