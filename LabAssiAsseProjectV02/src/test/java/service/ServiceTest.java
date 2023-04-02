@@ -1,3 +1,5 @@
+package service;
+
 import domain.Student;
 
 import org.junit.jupiter.api.BeforeEach;
