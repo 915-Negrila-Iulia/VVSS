@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df49f66c-c920-4ef2-986d-907a98f55e55" name="Default Changelist" comment="added maven framework">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorizareTemeLaboratorV02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MonitorizareTemeLaboratorV02.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/ServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/ServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-service.ServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/service.ServiceTest.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,15 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="app.MainApplication" />
-      <module name="MonitorizareTemeLaboratorV02" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MonitorizareTemeLaboratorV02" />
       <extension name="coverage">
@@ -184,12 +179,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceTest.tcAddStudentInvalidNotUniqueId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonitorizareTemeLaboratorV02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ServiceTest" />
+      <option name="METHOD_NAME" value="tcAddStudentInvalidNotUniqueId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTest.tcAddStudentValidStudentGroupBVA2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonitorizareTemeLaboratorV02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ServiceTest" />
+      <option name="METHOD_NAME" value="tcAddStudentValidStudentGroupBVA2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ServiceTest" />
+        <item itemvalue="JUnit.ServiceTest.tcAddStudentValidStudentGroupBVA2" />
+        <item itemvalue="JUnit.ServiceTest.tcAddStudentInvalidNotUniqueId" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +241,7 @@
       <workItem from="1679083852716" duration="355000" />
       <workItem from="1679084225724" duration="2402000" />
       <workItem from="1679086809798" duration="12697000" />
-      <workItem from="1680466257685" duration="4975000" />
+      <workItem from="1680466257685" duration="12116000" />
     </task>
     <task id="LOCAL-00001" summary="added maven framework">
       <created>1679086403913</created>
