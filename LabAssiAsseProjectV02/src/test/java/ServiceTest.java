@@ -1,5 +1,6 @@
 import domain.Student;
 
+import domain.Tema;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -115,5 +116,41 @@ public class ServiceTest {
             Student student = new Student(ids.get(i), "Dori Poppi", groups.get(i), "dorina@ubbcluj.ro");
             assertThrows(ValidationException.class, () -> service.addStudent(student));
         }
+    }
+
+    @Test
+    public void tcAddAssignmentInvalidID(){
+        assertThrows(ValidationException.class, () -> service.addTema(new Tema("","bafta",1,1)));
+    }
+
+    @Test
+    public void tcAddAssignmentValidUnique(){
+        assertNull(service.addTema(new Tema("111", "bafta", 1, 1)));
+    }
+
+    @Test
+    public void tcAddAssignmentInvalidNotUnique(){
+        service.addTema(new Tema("111","bafta",1,1));
+        assertNotNull(service.addTema(new Tema("111","bafta",1,1)));
+        assertEquals(1, service.getAllTeme().spliterator().getExactSizeIfKnown());
+    }
+
+    @Test
+    public void tcAddAssignmentInvalidDescription(){
+        assertThrows(ValidationException.class, () -> service.addTema(new Tema("111","",1,1)));
+    }
+
+    @Test
+    public void tcAddAssignmentInvalidDeadline(){
+        assertThrows(ValidationException.class, () -> service.addTema(new Tema("111","bafta",-1,1)));
+        assertThrows(ValidationException.class, () -> service.addTema(new Tema("111","bafta",0,1)));
+        assertThrows(ValidationException.class, () -> service.addTema(new Tema("111","bafta",Integer.MAX_VALUE,1)));
+    }
+
+    @Test
+    public void tcAddAssignmentInvalidPrimire(){
+        assertThrows(ValidationException.class, () -> service.addTema(new Tema("111","bafta",1,-1)));
+        assertThrows(ValidationException.class, () -> service.addTema(new Tema("111","bafta",1,0)));
+        assertThrows(ValidationException.class, () -> service.addTema(new Tema("111","bafta",1,Integer.MAX_VALUE)));
     }
 }

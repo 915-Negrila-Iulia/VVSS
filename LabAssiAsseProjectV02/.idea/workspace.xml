@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df49f66c-c920-4ef2-986d-907a98f55e55" name="Default Changelist" comment="added maven framework">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonitorizareTemeLaboratorV02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MonitorizareTemeLaboratorV02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/classpath.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/ServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,35 +144,7 @@
       <recent name="service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ssvv.lab.App" />
-      <module name="MonitorizareTemeLaboratorV02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ssvv.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MonitorizareTemeLaboratorV02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ssvv.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ssvv.lab" />
-      <option name="MAIN_CLASS_NAME" value="ssvv.lab.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ServiceTest">
     <configuration name="ServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MonitorizareTemeLaboratorV02" />
       <option name="PACKAGE_NAME" value="" />
@@ -186,33 +154,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceTest.tcAddStudentInvalidNotUniqueId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTest.tcAddAssignmentInvalidDeadline" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MonitorizareTemeLaboratorV02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ServiceTest" />
-      <option name="METHOD_NAME" value="tcAddStudentInvalidNotUniqueId" />
+      <option name="METHOD_NAME" value="tcAddAssignmentInvalidDeadline" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceTest.tcAddStudentValidStudentGroupBVA2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTest.tcAddAssignmentInvalidDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MonitorizareTemeLaboratorV02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ServiceTest" />
-      <option name="METHOD_NAME" value="tcAddStudentValidStudentGroupBVA2" />
+      <option name="METHOD_NAME" value="tcAddAssignmentInvalidDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTest.tcAddAssignmentInvalidPrimire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonitorizareTemeLaboratorV02" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceTest" />
+      <option name="METHOD_NAME" value="tcAddAssignmentInvalidPrimire" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTest.tcAddAssignmentInvalid_NotUnique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonitorizareTemeLaboratorV02" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceTest" />
+      <option name="METHOD_NAME" value="tcAddAssignmentInvalid_NotUnique" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -220,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.ServiceTest" />
-        <item itemvalue="JUnit.ServiceTest.tcAddStudentValidStudentGroupBVA2" />
-        <item itemvalue="JUnit.ServiceTest.tcAddStudentInvalidNotUniqueId" />
-        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.ServiceTest.tcAddAssignmentInvalidPrimire" />
+        <item itemvalue="JUnit.ServiceTest.tcAddAssignmentInvalidDeadline" />
+        <item itemvalue="JUnit.ServiceTest.tcAddAssignmentInvalidDescription" />
+        <item itemvalue="JUnit.ServiceTest.tcAddAssignmentInvalid_NotUnique" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +224,7 @@
       <workItem from="1679083852716" duration="355000" />
       <workItem from="1679084225724" duration="2402000" />
       <workItem from="1679086809798" duration="12697000" />
-      <workItem from="1680466257685" duration="13512000" />
+      <workItem from="1680466257685" duration="16354000" />
     </task>
     <task id="LOCAL-00001" summary="added maven framework">
       <created>1679086403913</created>
